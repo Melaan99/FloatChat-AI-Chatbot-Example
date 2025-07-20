@@ -120,3 +120,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* styles/globals.css */
+html,
+body {
+  transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
