@@ -142,6 +142,7 @@ export default function Home() {
             bg-white dark:bg-gray-800
             rounded-lg shadow-2xl
             flex flex-col
+            overflow-auto
           "
         >
           <DialogHeader className="p-4 border-b border-gray-200 dark:border-gray-700">

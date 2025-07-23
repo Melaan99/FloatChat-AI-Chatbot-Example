@@ -12,7 +12,9 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto px-4 flex justify-between items-center">
-          <h1 className="text-2xl font-semibold">Acme Widgets</h1>
+          <h1 className="text-2xl font-semibold">
+            FloatChat – AI-Powered Chatbot
+          </h1>
           <nav className="space-x-4">
             <a href="#features" className="hover:underline">
               Features
