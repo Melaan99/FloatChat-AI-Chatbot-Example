@@ -7,14 +7,23 @@ export default function Header() {
         bg-white dark:bg-gray-800 
         border-b border-gray-200 dark:border-gray-700 
         shadow-sm
-        sticky top-0 z-50
+        sticky top-0 z-50 py-6
       "
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <h1 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-            AI Chat Demo
-          </h1>
+        <div className="max-w-4xl mx-auto px-4 flex justify-between items-center">
+          <h1 className="text-2xl font-semibold">Acme Widgets</h1>
+          <nav className="space-x-4">
+            <a href="#features" className="hover:underline">
+              Features
+            </a>
+            <a href="#pricing" className="hover:underline">
+              Pricing
+            </a>
+            <a href="#contact" className="hover:underline">
+              Contact
+            </a>
+          </nav>{" "}
           <ThemeSelect />
         </div>
       </div>
